@@ -2,7 +2,7 @@ library(readxl)
 library(tidyverse)
 library(dplyr)
 
-#create a variable with al the sheet names ni the excel workbook
+#create a variable with all the sheet names in the excel workbook
 sheets <- excel_sheets("Water_Temp_sources_FullList.xlsx")
 
 #combine all the Source name, Lat and Long columns from all the sheets and add a column with the sheets number. 
